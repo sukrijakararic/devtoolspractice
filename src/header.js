@@ -1,11 +1,15 @@
 import React from 'react';
 
-function Header() {
-    return (
+function Header(props) {
+
+    return(
         <>
-     <h1>Hello World</h1>
+        <button onClick={props.butt}>print</button>
+
+        <h1>{props.speak}</h1>
         </>
     )
+
 }
 
 export default Header;

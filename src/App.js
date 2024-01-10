@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header  from './header';
 
-function App(props) {
+function App() {
+  const printMe = () => {
+   console.log('hello mate')
+ }
+
   return (
     <div className="App">
-      <Header />
+      <Header butt={printMe} speak='aye hello'/>
     </div>
   );
 }
