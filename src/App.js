@@ -4,8 +4,10 @@ import Header  from './header';
 
 function App() {
   const printMe = () => {
-   console.log('hello mate')
+   console.log('hello bro')
  }
+
+
 
   return (
     <div className="App">

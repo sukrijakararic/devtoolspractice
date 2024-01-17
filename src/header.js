@@ -7,6 +7,7 @@ function Header(props) {
         <button onClick={props.butt}>print</button>
 
         <h1>{props.speak}</h1>
+        <p id="sup"></p>
         </>
     )
 
